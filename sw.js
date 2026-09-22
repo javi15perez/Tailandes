@@ -1,6 +1,6 @@
 /* Guarda la app entera para que funcione sin cobertura.
-   v12: index.html se pide primero a la red (así llegan las actualizaciones) y, si no hay cobertura, se usa la copia guardada. */
-const CACHE = "sawasdee-v12";
+   v13: index.html se pide primero a la red (así llegan las actualizaciones) y, si no hay cobertura, se usa la copia guardada. */
+const CACHE = "sawasdee-v13";
 const FILES = ["./", "./index.html", "./manifest.json", "./icon-192.png", "./icon-512.png", "./icon-180.png"];
 
 self.addEventListener("install", (e) => {
